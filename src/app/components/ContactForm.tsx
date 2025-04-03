@@ -28,15 +28,15 @@ const ContactForm = () => {
         setError('');
         setSuccess('');
 
-        // Basic validation
-        const phoneRegex = /^[0-9\s\-\+]{7,15}$/; // Adjust regex as needed for your phone format
+        // Updated UK phone number regex
+        const phoneRegex = /^0[1-9]\d{9}$|^0[1-9]\d{2}\s?\d{3}\s?\d{3}$|^0[1-9]\d{3}\s?\d{4}$|^0[1-9]\d{4}\s?\d{5}$/;
         if (!firstName || !lastName || !email || !phone || selectedTreatments.length === 0 || !message || !acceptPolicy) {
             setError('All fields are required.');
             return;
         }
 
         if (!phoneRegex.test(phone)) {
-            setError('Please enter a valid phone number.');
+            setError('Please enter a valid UK phone number.');
             return;
         }
 
