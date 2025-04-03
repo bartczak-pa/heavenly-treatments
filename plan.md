@@ -27,10 +27,10 @@ This development plan outlines the step-by-step process to build a professional 
 - [x] Create environment variables setup
   - Create .env.local file for local development
   - Configure environment variables on Vercel
-- [ ] Set up API structure for contact form
+- [X] Set up API structure for contact form
   - Create API route for form submission
   - Implement email sending functionality (using service like SendGrid)
-- [ ] Set up data fetching methods
+- [X] Set up data fetching methods
   - Create utility functions for fetching treatment data
   - Implement static data structure for treatments and services
 
