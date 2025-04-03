@@ -36,7 +36,7 @@ This development plan outlines the step-by-step process to build a professional 
 
 ## 3. Feature-specific Backend
 
-- [ ] Create treatment data models
+- [x] Create treatment data models
   - Define types for treatments, categories, and metadata
   - Create mock data for initial development
 - [ ] Implement contact form handling
