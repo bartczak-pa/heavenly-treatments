@@ -42,9 +42,7 @@ This development plan outlines the step-by-step process to build a professional 
 - [X] Implement contact form handling
   - Create form validation logic
   - Set up email notification system
-- [ ] Implement Calendly integration
-  - Research Calendly embed options
-  - Configure redirect links with proper UTM parameters
+
 
 ## 4. Frontend Foundation
 
@@ -109,6 +107,9 @@ This development plan outlines the step-by-step process to build a professional 
   - Connect form to API endpoint
   - Add success/error handling
   - Implement client-side validation
+- [ ] Implement Calendly integration
+  - Research Calendly embed options
+  - Configure redirect links with proper UTM parameters
 
 ## 7. Testing
 
